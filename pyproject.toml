@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "Expression Language Example"
+version = "0.1.0"
+description = "Expression Language LangChain Like"
+authors = ["Jaganadh Gopinadhan"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[virtualenvs]
+create = true
+in-project = true
